@@ -1,0 +1,56 @@
+* {
+  font-size: 50px;
+  font-family: serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url('../images/bkgd.jpg');
+  background-size: cover;
+}
+
+.keys {
+  display: flex;
+  flex: 1;
+  min-width: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.key {
+  border: 5px solid black;
+  border-radius: 20px;
+  font-size: 50px;
+  padding: 5px;
+  width: 75px;
+  margin: 50px 20px;
+  transition: all .10s;
+  text-align: center;
+  color: white;
+  background: rgba(0,0,0,0.4);
+  text-shadow: 0 0 10px black;
+}
+
+kbd {
+  display: block;
+  font-weight: bolder;
+}
+
+.playing {
+  font-size: 65px;
+  transform: scale(1.2);
+  border-color: #ffc600;
+}
+
+.pressed-key {
+  border: 5px solid white;
+  width: 50%;
+  margin: auto;
+  color: white;
+  padding: 15px;
+}
+
+.pressed-key p {
+  margin-bottom: 10px;
+}
